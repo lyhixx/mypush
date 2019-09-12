@@ -1,8 +1,0 @@
-package com.lyh.common.protocol;
-option java_outer_classname = "MyPushRequestProto";
-
-message MyPushReqProtocol {  
-  int64 requestId = 1;
-  string reqMsg = 2;
-  int32 type = 3;
-}
