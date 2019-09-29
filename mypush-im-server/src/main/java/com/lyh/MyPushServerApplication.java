@@ -4,10 +4,12 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 
+import com.ctrip.framework.apollo.spring.annotation.EnableApolloConfig;
 import com.lyh.server.config.AppConfig;
 import com.lyh.server.tcp.TcpServer;
 
 @SpringBootApplication
+@EnableApolloConfig
 public class MyPushServerApplication {
 
 	public static void main(String[] args) throws InterruptedException {
